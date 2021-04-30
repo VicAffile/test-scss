@@ -21,8 +21,8 @@ body {
             background-color: #C85904;
         }
         .trois {
-            width: calc(100%/3);
-            min-width: 187px;
+            flex-grow: 1;
+            min-width: calc(100%/3);
             height: 150px;
             &#trois_1 {
                 background-color: #FDE8EC;
@@ -54,5 +54,15 @@ body {
         width: 100%;
         height: 400px;
         background-color: #F7F8FD;
+    }
+}
+
+@media all and (max-width: 400px) {
+    body {
+        .conteneur {
+            .trois {
+                width: 50%;
+            }
+        }
     }
 }
