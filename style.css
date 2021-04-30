@@ -83,7 +83,7 @@ body footer {
 
 @media all and (max-width: 400px) {
   body .conteneur .trois {
-    width: 50%;
+    min-width: 50%;
   }
 }
 /*# sourceMappingURL=style.css.map */
