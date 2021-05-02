@@ -44,6 +44,12 @@ body .conteneur .trois {
   height: 150px;
 }
 
+@media all and (max-width: 400px) {
+  body .conteneur .trois {
+    min-width: 50%;
+  }
+}
+
 body .conteneur .trois#trois_1 {
   background-color: #FDE8EC;
 }
@@ -75,15 +81,17 @@ body .conteneur .quatre {
   background-color: #0E4871;
 }
 
+@media all and (max-width: 400px) {
+  body .conteneur .quatre {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
 body footer {
   width: 100%;
   height: 400px;
   background-color: #F7F8FD;
-}
-
-@media all and (max-width: 400px) {
-  body .conteneur .trois {
-    min-width: 50%;
-  }
 }
 /*# sourceMappingURL=style.css.map */
